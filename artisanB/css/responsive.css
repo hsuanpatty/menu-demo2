@@ -147,6 +147,7 @@
 	.main-header .logo img {
 		width: auto;
 		max-height: 45px;
+		max-width: 85%;
 	}
 
 	.main-header .ui-btn {
