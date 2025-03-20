@@ -127,9 +127,15 @@
 	display: block;
 }
 .main-header .logo img {
-	max-width: 85%;
+	margin: 10px 0;
 	height: auto;
 }
+
+@media only screen and (max-width: 1200px) {
+	.main-header .logo img {
+		margin: 0;
+	}
+}	
 .main-header .main-box {
 	position: relative;
 	left: 0px;
@@ -743,9 +749,11 @@
 	z-index: 1;
 	transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
 }
+
 .mobile-menu .upper-box {
 	display: -webkit-box;
 	display: -ms-flexbox;
+	background-color: #f3f3f3;
 	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
@@ -753,9 +761,11 @@
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	padding: 20px 20px;
+	padding: 20px;
 	position: relative;
 	width: 100%;
+	box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+	z-index: 99;
 }
 
 .mobile-menu .upper-box-2 {
@@ -768,7 +778,7 @@
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: space-between;
-	padding: 10px 20px;
+	padding: 20px 20px 10px;
 	position: relative;
 	width: 100%;
 }
@@ -811,8 +821,7 @@
 	left: 0px;
 	max-height: 100%;
 	opacity: 0;
-	overflow-y: auto;
-	padding: 0px 0px;
+	padding: 0;
 	position: relative;
 	top: 0px;
 	-webkit-transform: translateX(101%);
@@ -820,6 +829,10 @@
 	visibility: hidden;
 	width: 100%;
 	z-index: 5;
+}
+
+.menu-box-y{
+	overflow-y: auto;
 }
 
 .mobile-menu-visible {
@@ -835,7 +848,7 @@
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 }
-.mobile-menu-visible .mobile-menu .menu-box {
+.mobile-menu-visible .mobile-menu .menu-box{
 	opacity: 1;
 	visibility: visible;
 	-webkit-transition: all 0.4s ease 200ms;
@@ -849,10 +862,7 @@
 	-webkit-transition: all 0.4s ease 200ms;
 	transition: all 0.4s ease 200ms;
 }
-.mobile-menu-visible .scroll-to-top {
-	opacity: 0;
-	visibility: hidden;
-}
+
 
 .mobile-menu .navigation {
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -932,7 +942,7 @@
 }
 
 .mobile-menu .navigation li > ul > li {
-	background-color: #faf1f1;
+	background-color: #faf1f1fa;
 	padding-left: 20px;
 }
 
