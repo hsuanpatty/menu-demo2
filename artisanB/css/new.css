@@ -878,7 +878,6 @@
 }
 
 .mobile-menu .navigation li > a {
-	color:  var(--bg-theme-000);
 	display: block;
 	font-size: 16px;
 	font-weight: 400;
@@ -1555,6 +1554,15 @@ footer#footer{
         padding-right: 0;
     }
 }
+@media (max-width:768px) {
+    #main-banner, .main-banner .item img {
+        height: auto;
+    }
+
+	#main {
+        margin-top: 0;
+    }
+}
 
 
 @media screen and (max-width: 768px) {
@@ -1564,6 +1572,9 @@ footer#footer{
         box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
      }
 }
+
+
+
 
 /**/
 .process-section .outer-box {
