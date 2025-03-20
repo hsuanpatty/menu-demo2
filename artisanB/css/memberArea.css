@@ -1,4 +1,4 @@
-﻿    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap");
     * {
         margin: 0;
         padding: 0;
@@ -2661,6 +2661,7 @@
     
     .theme #groupA .col-3 p {
         height: 50px;
+        font-size: 14px;
     }
     
     @media (max-width:768px) {
