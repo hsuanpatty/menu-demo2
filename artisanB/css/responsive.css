@@ -57,11 +57,6 @@
 	.main-header .info-btn {
 		padding-left: 0;
 	}
-
-	.header-style-two .header-lower,
-	.header-style-two .header-top {
-		padding: 10px 20px;
-	}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -114,6 +109,10 @@
 
 	.header-style-one .header-lower .main-box {
 		align-items: center;
+	}
+	.header-style-two .header-lower,
+	.header-style-two .header-top {
+		padding: 10px 20px;
 	}
 }
 @media only screen and (max-width: 768px) {
