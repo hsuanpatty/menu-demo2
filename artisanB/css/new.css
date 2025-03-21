@@ -643,7 +643,7 @@
 	left: 0px;
 	top: 0px;
 	width: 100%;
-	padding: 5px 0 0;
+	padding: 10px 0;
 	z-index: 99999;
 	background: #fffffffa;
 	-webkit-box-shadow:  rgba(0, 0, 0, 0.05) 0px 6px 5px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -1444,7 +1444,7 @@ footer#footer{
 	}
 }
 
-@media (max-width: 1450.98px) { 
+@media (max-width: 1599.98px) { 
 	.sticky-header .inner-container{
 		display: block;
 	}
@@ -1491,7 +1491,7 @@ footer#footer{
 	}
 
 	.sticky-header .main-menu .navigation > li {
-		padding: 10px 4px 5px 4px;
+		padding: 10px 0 5px;
 	}
 
 }
