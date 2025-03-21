@@ -43,6 +43,10 @@
 	.header-style-two .header-lower .logo-box {
 		padding: 15px 0;
 	}
+	.header-style-two .header-lower,
+	.header-style-two .header-top {
+		padding: 0 28px;
+	}
 }
 
 @media only screen and (max-width: 1300px) {
@@ -603,7 +607,7 @@
 	.header-style-four .header-lower,
 	.header-style-two .header-lower,
 	.header-style-two .header-top {
-		padding: 10px 20px 5px;
+		padding: 0 20px;
 	}
 
 	.main-header .header-lower .logo-box {
