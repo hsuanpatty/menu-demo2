@@ -626,8 +626,8 @@
 	padding: 5px 0 0;
 	z-index: 99999;
 	background: #fffffffa;
-	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow:  rgba(0, 0, 0, 0.05) 0px 6px 5px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 5px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .sticky-header.fixed-header {
@@ -753,7 +753,7 @@
 .mobile-menu .upper-box {
 	display: -webkit-box;
 	display: -ms-flexbox;
-	background-color: #f7f7f8;
+	background-color: #efeeee;
 	display: flex;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
@@ -764,7 +764,7 @@
 	padding: 20px;
 	position: relative;
 	width: 100%;
-	box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 5px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 	z-index: 99;
 }
 
