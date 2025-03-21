@@ -320,6 +320,7 @@
 }
 
 .main-menu .navigation > li > ul > li > a {
+	color: #000;
 	position: relative;
 	display: block;
 	text-decoration:none;
@@ -423,6 +424,10 @@
 }
 .main-menu .navigation > li > ul > li > ul > li:hover > a  {
 	color: #8c001a;
+}
+
+.sub_menu_subtitle{
+	color: #646464;
 }
 
 .main-menu .navigation li.dropdown .dropdown-btn {
